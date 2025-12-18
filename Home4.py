@@ -10,12 +10,10 @@ def L_shape():
     jump()
     turn_left()
     jump()
+    while at_goal():
+        done()
     turn_right()
     move()
     turn_right()
-​
-for _ in range(3):
-    L_shape()
-jump()
-turn_left()
-jump()
+for i in range(4):
+        L_shape()
