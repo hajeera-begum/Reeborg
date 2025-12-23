@@ -18,3 +18,4 @@ while True:
         move()
     if object_here():
         take()
+        done()
