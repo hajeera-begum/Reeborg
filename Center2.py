@@ -34,12 +34,10 @@ while True:
                 found_centre()
 
     elif not is_facing_north():
-        if front_is_clear():
-            move()
-            width+=1
+         move()
+         width+=1
     elif is_facing_north():
-        if front_is_clear():
-            move()
-            height+=1
-            if wall_in_front():
-                found_centre()
+         move()
+         height+=1
+         if wall_in_front():
+            found_centre()
