@@ -1,34 +1,30 @@
 def turn_right():
-    turn_left()
-    turn_left()
-    turn_left()
+    for i in range(3):
+        turn_left()
+    
 turn_left()
 move()
 move()
 turn_right()
 move()
 
-def object():
+def collect():
     if object_here():
         take()
-def harvest_one_row(num):
+def harvest(num):
     for i in range(num):
         move()
-        object()
-def step_up():
-    turn_left()
+        collect()
+def step_up(direction):
+    direction()
     move()
-    turn_left()
-    object()
-
-harvest_one_row(6)
+    direction()
+    collect()
+harvest(6)
 for i in range(2):
-    step_up()
-    harvest_one_row(5)
-    turn_right()
-    move()
-    turn_right()
-    object()
-    harvest_one_row(5)
-step_up()
-harvest_one_row(5)
+    step_up(turn_left)
+    harvest(5)
+    step_up(turn_right)
+    harvest(5)
+step_up(turn_left)
+harvest(5)
