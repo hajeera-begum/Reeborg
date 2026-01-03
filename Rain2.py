@@ -1,3 +1,4 @@
+# This works for Rain0 and Rain1 too
 def turn_right():
     repeat 3:
         turn_left()
