@@ -20,7 +20,7 @@ repeat 2:
     collect()
     roam(3)
     turn_right()
-    move()
+    collect()
     turn_right()
     collect()
     roam(3)
@@ -28,6 +28,8 @@ turn_left()
 collect()
 turn_left()
 roam(3)
+while object_here():
+    take()
 while carries_object():
     toss()
     
