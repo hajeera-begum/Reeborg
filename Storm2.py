@@ -1,4 +1,4 @@
-
+#This works for Storm1 too
 def turn_right():
     repeat 3:
         turn_left()
@@ -9,8 +9,8 @@ def collect():
 def roam(steps):
     for i in range(steps):
         collect()
-move()
-roam(4)
+while not wall_in_front():
+    move()
 turn_left()
 roam(5)
 repeat 2:
@@ -18,12 +18,12 @@ repeat 2:
     collect()
     turn_left()
     collect()
-    roam(3)
+    roam(4)
     turn_right()
     collect()
     turn_right()
     collect()
-    roam(3)
+    roam(4)
 turn_left()
 collect()
 turn_left()
@@ -40,5 +40,3 @@ move()
 move()
 turn_right()
 move()
-​
-    
