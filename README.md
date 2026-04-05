@@ -1,7 +1,6 @@
 # 🐍 Reeborg's World - Python Challenges
 
 Welcome to my solutions for the **Reeborg's World** Python programming challenges! 🚀  
-This repo contains my implementations for the popular "Hurdles" challenges (Hurdle 1 to Hurdle 4) and more as I progress.
 ---
 
 ## 🛠 Technologies Used
@@ -26,7 +25,7 @@ Connect with me on [LinkedIn:https://www.linkedin.com/in/hajeerabegum/]
 
 ## 🌟 Future Goals
 
-- Add solutions for **Maze**, **Escape**, and other challenges
+- Add solutions for **Storm3**, **Storm4**
 - Refactor code for clarity and reuse
 - Add visual screenshots of Reeborg in action
 
